@@ -1,0 +1,36 @@
+.intro {
+  padding: 2.5rem 0 3.125rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.heading {
+  padding: 0;
+  font-size: 3.5rem;
+  margin-bottom: 0.8rem;
+  color: var(--grey-mid);
+}
+
+.sub-heading {
+  color: var(--grey-light);
+  display: block;
+}
+
+.about {
+  color: var(--grey-light);
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+  max-width: 500px;
+}
+
+.email-link {
+  display: inline-block;
+  border: 1px solid var(--brand-primary);
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 1.25rem 1.75rem;
+}
+
+.email-link:hover {
+  background-color: var(--brand-primary-rgba);
+}

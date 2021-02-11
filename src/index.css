@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  background-color: var(--body-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: var(--code-font);
+}
+
+a {
+  color: var(--brand-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--headings-font-family);
+}
+
+/*
+// VARIABLES
+*/
+:root {
+  /* Colors */
+
+  --brand-primary: #4183c4;
+  --brand-highlight: #dfe8f0;
+  /* #9ec0cb another nice muted blue hex */
+  --black: #000;
+  --white: #fff;
+  --body-bg: #f6f6f6;
+
+  /* Greys */
+  --darkest-grey: #363636;
+  --dark-grey: #414042;
+  --grey-mid: #414042;
+  --grey-light: #7c7b7e;
+  --grey-ui: #ddd;
+
+  --color-code: #859900;
+  --color-pre-background: #fffef7;
+  --color-pre-border: #ece9d1;
+  --color-pre: var(--white);
+
+  /* RGBA */
+  --brand-primary-rgba: rgba(64, 131, 196, 0.1);
+  --brand-highlight-rgba: rgba(223, 232, 240, 0.1);
+  --grey-mid-rgba: rgba(102, 102, 102, 0.1);
+
+  /* Font stacks */
+  --headings-font-family: "Noto Serif", serif;
+  --body-font-family: "Noto Sans", sans-serif;
+  --code-font: "Bitstream Vera Sans Mono", "Courier", monospace;
+}
