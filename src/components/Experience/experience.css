@@ -1,0 +1,30 @@
+.tabs {
+  display: flex;
+  max-width: 600px;
+}
+
+.tabs ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tab-link {
+  cursor: pointer;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: transparent;
+  border-left: 3px solid transparent;
+  transition: all ease 0.3s;
+}
+
+.tab-link--active {
+  background-color: var(--brand-primary-rgba);
+  border-left: 3px solid var(--brand-primary);
+}
+
+.tab-content {
+  padding: 0.5rem 1rem;
+  transition: all ease 0.3s;
+}

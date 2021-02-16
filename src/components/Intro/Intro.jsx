@@ -9,11 +9,11 @@ function Intro() {
         <span className="sub-heading">I build things for the web.</span>
       </h1>
 
-      <p className="about">
+      <p className="intro-about">
         I'm a software engineer based in Wellington, NZ specialising in building
         exceptional websites, applications, and everything in between.
       </p>
-      <a className="email-link" href="mailto:contacthanahmae@gmail.com">
+      <a className="button" href="mailto:contacthanahmae@gmail.com">
         Get In Touch
       </a>
     </section>

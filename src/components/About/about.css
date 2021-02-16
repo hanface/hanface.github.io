@@ -1,0 +1,14 @@
+.about-section {
+}
+
+.about-section ul {
+  max-width: 500px;
+  margin: 0;
+  padding: 0 0 0 1.2rem;
+  columns: 2;
+}
+
+.about-section li::marker {
+  content: "►";
+  color: var(--brand-primary);
+}
