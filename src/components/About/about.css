@@ -1,14 +1,19 @@
-.about-section {
+.about-section p {
+  max-width: 600px;
 }
 
 .about-section ul {
   max-width: 500px;
   margin: 0;
-  padding: 0 0 0 1.2rem;
+  padding: 0;
   columns: 2;
+  list-style: none;
 }
 
-.about-section li::marker {
+.about-section li::before {
+  display: inline-block;
   content: "►";
+  font-size: 0.8rem;
+  padding-right: 0.5rem;
   color: var(--brand-primary);
 }

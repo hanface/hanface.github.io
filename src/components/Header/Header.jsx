@@ -15,7 +15,7 @@ function Header() {
       >
         <g
           transform="translate(0.000000,152.000000) scale(0.100000,-0.100000)"
-          fill="#414042"
+          fill="#35403a"
           stroke="none"
         >
           <path

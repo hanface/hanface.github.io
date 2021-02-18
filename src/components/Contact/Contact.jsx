@@ -6,7 +6,8 @@ function Contact() {
       <h2>Contact me</h2>
       <p>
         I am currently looking for new opportunies, either remote or here in
-        Wellington. I'd like to work on x,y and z.
+        Wellington. I would like to be part of a team that is learning and
+        growing together, with opportunities to continue to expand my skill set.
       </p>
 
       <p>
