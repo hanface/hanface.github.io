@@ -1,3 +1,7 @@
 .contact-section p {
   max-width: 600px;
 }
+
+.contact-section p + p {
+  margin-bottom: 3rem;
+}

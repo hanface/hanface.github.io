@@ -3,7 +3,7 @@ import "./intro.css";
 function Intro() {
   return (
     <section className="intro">
-      <p className="lead animate__animated animate__fadeInUp">Hi, I'm</p>
+      <p className="lead animate__animated animate__fadeInUp">Hi, my name is</p>
       <h1 className="heading animate__animated animate__fadeInUp">
         Han Thompson.
         <span className="sub-heading">I build things for the web.</span>
