@@ -1,7 +1,6 @@
 function Keepers() {
   return (
     <article className="tab-content">
-      <h4>Keepers</h4>
       <p>
         Keepers was my first ever industry role, which I landed not long after
         making my move to Melbourne. It provided me the opportunity to work with

@@ -1,12 +1,17 @@
 function Punters() {
   return (
     <article className="tab-content">
-      <h4>Punters.com.au</h4>
-      <p>
-        I was the first front-end focused developer at Punters. I had the
-        opportunity to help implement a new archtecture and was able to reduce
-        the compiled CSS code by x%.
-      </p>
+      <p>April 2015 - Jan 2017 // Melbourne, Aus</p>
+      <ul>
+        <li>
+          Developed new user-facing features using LESS, Handlebars and PHP.
+        </li>
+        <li>Consolidated all LESS and JS for maximum speed and scalability.</li>
+        <li>
+          Implemented a new Front-end architecture to allow for reusable and
+          scalable components across multiple brands.
+        </li>
+      </ul>
     </article>
   );
 }

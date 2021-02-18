@@ -1,12 +1,20 @@
 function Snaffle() {
   return (
     <article className="tab-content">
-      <h4>Snaffle</h4>
-      <p>
-        I started out in the Snaffle office in Melbourne, orgianllay on a short
-        term contract. My contract was then extended and went on to be full time
-        remote. Working from both Japan and NZ.
-      </p>
+      <p>Feb 2018 - June 2020 // Melbourne, Aus & Remote</p>
+      <ul>
+        <li>
+          Upgraded SANE Australia’s Khorus (formally Lithium) forums to the
+          latest responsive version.
+        </li>
+        <li>
+          Developed over 60 custom responsive skins for SANE partner sites.
+        </li>
+        <li>
+          Created custom components using the Khorus API and freemarker to meet
+          clients needs.
+        </li>
+      </ul>
     </article>
   );
 }

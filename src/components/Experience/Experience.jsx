@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, Fragment } from "react";
 
 import "./experience.css";
 
@@ -11,10 +11,9 @@ import Keepers from "./Keepers";
 function Experience() {
   const [jobList, setJobList] = useState([
     { company: "Colossal", altName: "colossal", isActive: true },
-    { company: "Enspiral Dev Academy", altName: "eda", isActive: false },
+    { company: "Dev Academy", altName: "eda", isActive: false },
     { company: "Snaffle", altName: "snaffle", isActive: false },
     { company: "Punters.com.au", altName: "punters", isActive: false },
-    { company: "Keepers", altName: "keepers", isActive: false },
   ]);
 
   const updateTab = (currentTab) => {
@@ -34,7 +33,7 @@ function Experience() {
     <section className="experience-section" id="work">
       <h2>Where I've Worked</h2>
       <div className="tabs">
-        <ul>
+        <ul className="tab-list">
           {jobList.map((job, i) => {
             let activeClass = " ";
             if (job.isActive) {
@@ -54,7 +53,7 @@ function Experience() {
           })}
         </ul>
 
-        <div>
+        <Fragment>
           {jobList.map((job, i) => {
             if (job.altName == "colossal" && job.isActive == true) {
               return <Colossal key={i} />;
@@ -76,7 +75,7 @@ function Experience() {
               return <Keepers key={i} />;
             }
           })}
-        </div>
+        </Fragment>
       </div>
     </section>
   );

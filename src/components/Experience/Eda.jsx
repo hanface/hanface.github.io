@@ -1,11 +1,21 @@
 function Eda() {
   return (
     <article className="tab-content">
-      <h4>Enspiral Dev Academy</h4>
-      <p>
-        I taught a full stack web development bootcamp in Wellington, NZ for
-        just over a year.
-      </p>
+      <p>May 2019 - July 2020 // Wellington, NZ</p>
+      <ul>
+        <li>
+          Managed and maintained daily rhythms for students to ensure all course
+          material was delivered on time.
+        </li>
+        <li>
+          Planned React and Node.js lectures and delivered with live coding
+          sessions.
+        </li>
+        <li>
+          Prepared students for employment as software developers by providing
+          meaningul feedback and identifying areas of growth.
+        </li>
+      </ul>
     </article>
   );
 }

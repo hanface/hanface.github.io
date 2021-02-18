@@ -1,12 +1,17 @@
 function Colossal() {
   return (
     <article className="tab-content">
-      <h4>Colossal</h4>
-      <p>
-        I worked for Steve at Colossal for a short term contract to help out
-        with some extra workload. One of my main tasks was to update a chat
-        feature for Lifeline Australia.
-      </p>
+      <p>Nov 2020 - Jan 2021 // Remote</p>
+      <ul>
+        <li>Developed new user-facing features using React.js.</li>
+        <li>
+          Built reusable components and front-end libraries for future use. 
+        </li>
+        <li>
+          Optimized components for maximum performance across a vast array of
+          web-capable devices.
+        </li>
+      </ul>
     </article>
   );
 }
