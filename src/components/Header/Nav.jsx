@@ -9,7 +9,7 @@ const Nav = () => {
       <AnchorLink href="#work">Work</AnchorLink>
       <AnchorLink href="#contact">Contact</AnchorLink>
       <a
-        class="button resume-button"
+        className="button resume-button"
         href="/han-thompson-resume2021.pdf"
         target="_blank"
       >
