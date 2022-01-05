@@ -1,16 +1,18 @@
-import { useState, useEffect, Fragment } from "react";
-
-import "./experience.css";
+import { useState } from "react";
 
 import Colossal from "./Colossal";
 import Snaffle from "./Snaffle";
 import Eda from "./Eda";
 import Punters from "./Punters";
 import Keepers from "./Keepers";
+import AskYourTeam from "./AskYourTeam";
+
+import "./experience.css";
 
 function Experience() {
   const [jobList, setJobList] = useState([
-    { company: "Colossal", altName: "colossal", isActive: true },
+    { company: "AskYourTeam", altName: "ayt", isActive: true },
+    { company: "Colossal", altName: "colossal", isActive: false },
     { company: "Dev Academy", altName: "eda", isActive: false },
     { company: "Snaffle", altName: "snaffle", isActive: false },
     { company: "Punters.com.au", altName: "punters", isActive: false },
@@ -53,8 +55,13 @@ function Experience() {
           })}
         </ul>
 
-        <Fragment>
+        <>
           {jobList.map((job, i) => {
+            console.log(job)
+            if (job.altName == "ayt" && job.isActive == true) {
+              return <AskYourTeam key={i} />;
+            }
+
             if (job.altName == "colossal" && job.isActive == true) {
               return <Colossal key={i} />;
             }
@@ -75,7 +82,7 @@ function Experience() {
               return <Keepers key={i} />;
             }
           })}
-        </Fragment>
+        </>
       </div>
     </section>
   );
