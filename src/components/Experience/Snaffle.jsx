@@ -1,4 +1,4 @@
-function Snaffle() {
+const Snaffle = () => {
   return (
     <article className="tab-content">
       <p>Feb 2018 - June 2020 // Melbourne, Aus & Remote</p>

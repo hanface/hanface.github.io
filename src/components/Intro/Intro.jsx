@@ -1,6 +1,6 @@
 import "./intro.css";
 
-function Intro() {
+const Intro = () => {
   return (
     <section className="intro">
       <p className="lead animate__animated animate__fadeInUp">Hi, my name is</p>

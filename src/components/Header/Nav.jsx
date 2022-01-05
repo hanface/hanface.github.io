@@ -2,7 +2,7 @@ import "./nav.css";
 
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-function Nav() {
+const Nav = () => {
   return (
     <nav>
       <AnchorLink href="#about">About</AnchorLink>

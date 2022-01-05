@@ -1,4 +1,4 @@
-function Eda() {
+const Eda = () => {
   return (
     <article className="tab-content">
       <p>May 2019 - July 2020 // Wellington, NZ</p>

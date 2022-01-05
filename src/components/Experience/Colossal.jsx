@@ -1,11 +1,11 @@
-function Colossal() {
+const Colossal = () => {
   return (
     <article className="tab-content">
       <p>Nov 2020 - Jan 2021 // Remote</p>
       <ul>
         <li>Developed new user-facing features using React.js.</li>
         <li>
-          Built reusable components and front-end libraries for future use. 
+          Built reusable components and front-end libraries for future use.
         </li>
         <li>
           Optimized components for maximum performance across a vast array of

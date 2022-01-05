@@ -2,7 +2,7 @@ import "./header.css";
 
 import Nav from "./Nav";
 
-function Header() {
+const Header = () => {
   return (
     <header>
       <svg

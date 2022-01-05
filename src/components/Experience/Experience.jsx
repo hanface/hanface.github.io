@@ -9,7 +9,7 @@ import AskYourTeam from "./AskYourTeam";
 
 import "./experience.css";
 
-function Experience() {
+const Experience = () => {
   const [jobList, setJobList] = useState([
     { company: "AskYourTeam", altName: "ayt", isActive: true },
     { company: "Colossal", altName: "colossal", isActive: false },

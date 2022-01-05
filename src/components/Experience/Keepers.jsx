@@ -1,4 +1,4 @@
-function Keepers() {
+const Keepers = () => {
   return (
     <article className="tab-content">
       <p>

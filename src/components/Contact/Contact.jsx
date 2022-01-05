@@ -1,6 +1,6 @@
 import "./contact.css";
 
-function Contact() {
+const Contact = () => {
   return (
     <section className="contact-section" id="contact">
       <h2>Contact me</h2>
