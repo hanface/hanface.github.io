@@ -22,12 +22,11 @@ const Experience = () => {
     const jobs = [...jobList];
 
     jobs.map((job) => {
-      if (job.altName === currentTab) {
-        job.isActive = true;
-      } else {
-        job.isActive = false;
-      }
+      return job.altName === currentTab
+        ? job.isActive = true
+        : job.isActive = false;
     });
+
     setJobList(jobs);
   };
 
@@ -37,10 +36,7 @@ const Experience = () => {
       <div className="tabs">
         <ul className="tab-list">
           {jobList.map((job, i) => {
-            let activeClass = " ";
-            if (job.isActive) {
-              activeClass = "tab-link--active";
-            }
+            const activeClass = job.isActive ? "tab-link--active" : "";
 
             return (
               <li key={i}>
@@ -56,31 +52,18 @@ const Experience = () => {
         </ul>
 
         <>
-          {jobList.map((job, i) => {
-            console.log(job)
-            if (job.altName == "ayt" && job.isActive == true) {
-              return <AskYourTeam key={i} />;
-            }
+          {jobList.map((job) => {
+            if(job.altName === "ayt" && job.isActive) return <AskYourTeam key={job.altName} />
 
-            if (job.altName == "colossal" && job.isActive == true) {
-              return <Colossal key={i} />;
-            }
+            if(job.altName === "colossal" && job.isActive) return <Colossal key={job.altName} />
 
-            if (job.altName == "eda" && job.isActive == true) {
-              return <Eda key={i} />;
-            }
+            if(job.altName === "eda" && job.isActive) return <Eda key={job.altName} />
 
-            if (job.altName == "snaffle" && job.isActive == true) {
-              return <Snaffle key={i} />;
-            }
+            if(job.altName === "snaffle" && job.isActive) return <Snaffle key={job.altName} />
 
-            if (job.altName == "punters" && job.isActive == true) {
-              return <Punters key={i} />;
-            }
+            if(job.altName === "punters" && job.isActive) return <Punters key={job.altName} />
 
-            if (job.altName == "keepers" && job.isActive == true) {
-              return <Keepers key={i} />;
-            }
+            if(job.altName === "keepers" && job.isActive) return <Keepers key={job.altName} />
           })}
         </>
       </div>
