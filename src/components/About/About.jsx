@@ -16,6 +16,9 @@ const About = () => {
         <li>HTML & (S)CSS</li>
         <li>React</li>
         <li>Node.js</li>
+        <li>Serverless</li>
+        <li>AWS</li>
+        <li>Docker</li>
         <li>Prismic</li>
         <li>Next.js</li>
       </ul>
