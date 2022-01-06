@@ -4,12 +4,11 @@ const AskYourTeam = () => {
       <p>May 2021 - Current // Wellington, NZ</p>
       <ul>
         <li>
-          Developed new user-facing features using LESS, Handlebars and PHP.
+          Contributed as a cross-functional developer.
         </li>
-        <li>Consolidated all LESS and JS for maximum speed and scalability.</li>
+        <li>Provided meaningful feedback through code reviews.</li>
         <li>
-          Implemented a new Front-end architecture to allow for reusable and
-          scalable components across multiple brands.
+          Implemented serverless projects.
         </li>
       </ul>
     </article>

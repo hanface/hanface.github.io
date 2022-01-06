@@ -3,7 +3,7 @@ const Colossal = () => {
     <article className="tab-content">
       <p>Nov 2020 - Jan 2021 // Remote</p>
       <ul>
-        <li>Developed new user-facing features using React.js.</li>
+        <li>Developed new user-facing features using React.</li>
         <li>
           Built reusable components and front-end libraries for future use.
         </li>
