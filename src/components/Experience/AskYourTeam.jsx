@@ -3,13 +3,9 @@ const AskYourTeam = () => {
     <article className="tab-content">
       <p>May 2021 - Current // Wellington, NZ</p>
       <ul>
-        <li>
-          Contributed as a cross-functional developer.
-        </li>
+        <li>Contributed to an internal react component library.</li>
+        <li>Developed and maintained serverless projects on AWS using the serverless framework.</li>
         <li>Provided meaningful feedback through code reviews.</li>
-        <li>
-          Implemented serverless projects.
-        </li>
       </ul>
     </article>
   );
