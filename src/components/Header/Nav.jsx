@@ -10,13 +10,13 @@ const Nav = () => {
       <AnchorLink href="#contact">Contact</AnchorLink>
       <a
         className="button resume-button"
-        href="/han-thompson-resume2021.pdf"
+        href="/han-thompson-resume.pdf"
         target="_blank"
       >
         Resume
       </a>
     </nav>
   );
-}
+};
 
 export default Nav;
