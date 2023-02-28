@@ -1,16 +1,18 @@
-import { useState, useEffect, Fragment } from "react";
-
-import "./experience.css";
+import { useState } from "react";
 
 import Colossal from "./Colossal";
 import Snaffle from "./Snaffle";
 import Eda from "./Eda";
 import Punters from "./Punters";
 import Keepers from "./Keepers";
+import AskYourTeam from "./AskYourTeam";
 
-function Experience() {
+import "./experience.css";
+
+const Experience = () => {
   const [jobList, setJobList] = useState([
-    { company: "Colossal", altName: "colossal", isActive: true },
+    { company: "AskYourTeam", altName: "ayt", isActive: true },
+    { company: "Colossal", altName: "colossal", isActive: false },
     { company: "Dev Academy", altName: "eda", isActive: false },
     { company: "Snaffle", altName: "snaffle", isActive: false },
     { company: "Punters.com.au", altName: "punters", isActive: false },
@@ -20,12 +22,11 @@ function Experience() {
     const jobs = [...jobList];
 
     jobs.map((job) => {
-      if (job.altName === currentTab) {
-        job.isActive = true;
-      } else {
-        job.isActive = false;
-      }
+      return job.altName === currentTab
+        ? job.isActive = true
+        : job.isActive = false;
     });
+
     setJobList(jobs);
   };
 
@@ -35,10 +36,7 @@ function Experience() {
       <div className="tabs">
         <ul className="tab-list">
           {jobList.map((job, i) => {
-            let activeClass = " ";
-            if (job.isActive) {
-              activeClass = "tab-link--active";
-            }
+            const activeClass = job.isActive ? "tab-link--active" : "";
 
             return (
               <li key={i}>
@@ -53,29 +51,20 @@ function Experience() {
           })}
         </ul>
 
-        <Fragment>
-          {jobList.map((job, i) => {
-            if (job.altName == "colossal" && job.isActive == true) {
-              return <Colossal key={i} />;
-            }
+        {jobList.map((job) => {
+          if (job.altName === "ayt" && job.isActive) return <AskYourTeam key={job.altName} />
 
-            if (job.altName == "eda" && job.isActive == true) {
-              return <Eda key={i} />;
-            }
+          if (job.altName === "colossal" && job.isActive) return <Colossal key={job.altName} />
 
-            if (job.altName == "snaffle" && job.isActive == true) {
-              return <Snaffle key={i} />;
-            }
+          if (job.altName === "eda" && job.isActive) return <Eda key={job.altName} />
 
-            if (job.altName == "punters" && job.isActive == true) {
-              return <Punters key={i} />;
-            }
+          if (job.altName === "snaffle" && job.isActive) return <Snaffle key={job.altName} />
 
-            if (job.altName == "keepers" && job.isActive == true) {
-              return <Keepers key={i} />;
-            }
-          })}
-        </Fragment>
+          if (job.altName === "punters" && job.isActive) return <Punters key={job.altName} />
+
+          if (job.altName === "keepers" && job.isActive) return <Keepers key={job.altName} />
+        })}
+
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-function Punters() {
+const Punters = () => {
   return (
     <article className="tab-content">
       <p>April 2015 - Jan 2017 // Melbourne, Aus</p>
