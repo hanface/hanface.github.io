@@ -5,8 +5,8 @@ const Contact = () => {
     <section className="contact-section" id="contact">
       <h2>Contact me</h2>
       <p>
-        I am currently looking for new opportunies, either remote or here in
-        Wellington. I would like to be part of a team that is learning and
+        I am currently looking for new opportunities, either remote or here in
+        Auckland. I would like to be part of a team that is learning and
         growing together. With opportunities to continue to expand my skill set,
         as well as mentoring others.
       </p>

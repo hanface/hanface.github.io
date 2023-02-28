@@ -52,17 +52,17 @@ const Experience = () => {
         </ul>
 
         {jobList.map((job) => {
-          if(job.altName === "ayt" && job.isActive) return <AskYourTeam key={job.altName} />
+          if (job.altName === "ayt" && job.isActive) return <AskYourTeam key={job.altName} />
 
-          if(job.altName === "colossal" && job.isActive) return <Colossal key={job.altName} />
+          if (job.altName === "colossal" && job.isActive) return <Colossal key={job.altName} />
 
-          if(job.altName === "eda" && job.isActive) return <Eda key={job.altName} />
+          if (job.altName === "eda" && job.isActive) return <Eda key={job.altName} />
 
-          if(job.altName === "snaffle" && job.isActive) return <Snaffle key={job.altName} />
+          if (job.altName === "snaffle" && job.isActive) return <Snaffle key={job.altName} />
 
-          if(job.altName === "punters" && job.isActive) return <Punters key={job.altName} />
+          if (job.altName === "punters" && job.isActive) return <Punters key={job.altName} />
 
-          if(job.altName === "keepers" && job.isActive) return <Keepers key={job.altName} />
+          if (job.altName === "keepers" && job.isActive) return <Keepers key={job.altName} />
         })}
 
       </div>

@@ -10,7 +10,7 @@ const Intro = () => {
       </h1>
 
       <p className="intro-about animate__animated animate__fadeInUp animate__delay-0.2s">
-        I'm a software engineer based in Wellington, NZ specialising in building
+        I'm a software engineer based in Auckland, NZ specialized in building
         exceptional websites, applications, and everything in between.
       </p>
       <a
