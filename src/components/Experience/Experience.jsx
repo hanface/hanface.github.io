@@ -16,6 +16,7 @@ const Experience = () => {
     { company: "Dev Academy", altName: "eda", isActive: false },
     { company: "Snaffle", altName: "snaffle", isActive: false },
     { company: "Punters.com.au", altName: "punters", isActive: false },
+    { company: "Keepers", altName: "keepers", isActive: false },
   ]);
 
   const updateTab = (currentTab) => {
@@ -23,8 +24,8 @@ const Experience = () => {
 
     jobs.map((job) => {
       return job.altName === currentTab
-        ? job.isActive = true
-        : job.isActive = false;
+        ? (job.isActive = true)
+        : (job.isActive = false);
     });
 
     setJobList(jobs);
@@ -52,22 +53,27 @@ const Experience = () => {
         </ul>
 
         {jobList.map((job) => {
-          if (job.altName === "ayt" && job.isActive) return <AskYourTeam key={job.altName} />
+          if (job.altName === "ayt" && job.isActive)
+            return <AskYourTeam key={job.altName} />;
 
-          if (job.altName === "colossal" && job.isActive) return <Colossal key={job.altName} />
+          if (job.altName === "colossal" && job.isActive)
+            return <Colossal key={job.altName} />;
 
-          if (job.altName === "eda" && job.isActive) return <Eda key={job.altName} />
+          if (job.altName === "eda" && job.isActive)
+            return <Eda key={job.altName} />;
 
-          if (job.altName === "snaffle" && job.isActive) return <Snaffle key={job.altName} />
+          if (job.altName === "snaffle" && job.isActive)
+            return <Snaffle key={job.altName} />;
 
-          if (job.altName === "punters" && job.isActive) return <Punters key={job.altName} />
+          if (job.altName === "punters" && job.isActive)
+            return <Punters key={job.altName} />;
 
-          if (job.altName === "keepers" && job.isActive) return <Keepers key={job.altName} />
+          if (job.altName === "keepers" && job.isActive)
+            return <Keepers key={job.altName} />;
         })}
-
       </div>
     </section>
   );
-}
+};
 
 export default Experience;

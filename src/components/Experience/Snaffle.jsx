@@ -4,19 +4,28 @@ const Snaffle = () => {
       <p>Feb 2018 - June 2020 // Melbourne, Aus & Remote</p>
       <ul>
         <li>
-          Upgraded SANE Australia’s Khorus (formally Lithium) forums to the
-          latest responsive version.
+          Collaborated with the team to implement new features and enhancements
+          on the forums and website.
         </li>
         <li>
-          Developed over 60 custom responsive skins for SANE partner sites.
+          Worked on updating and maintaining online forums and websites,
+          ensuring their smooth operation and functionality.
         </li>
         <li>
-          Created custom components using the Khorus API and freemarker to meet
-          clients needs.
+          Conducted thorough testing and debugging to ensure cross-browser
+          compatibility and smooth user experience.
+        </li>
+        <li>
+          Worked closely with designers and UX teams to translate wireframes
+          into interactive web interfaces.
+        </li>
+        <li>
+          Implemented SEO best practices, such as proper meta tags and
+          structured data, to improve search engine visibility.
         </li>
       </ul>
     </article>
   );
-}
+};
 
 export default Snaffle;
