@@ -19,11 +19,11 @@ const About = () => {
         <li>Serverless</li>
         <li>AWS</li>
         <li>Docker</li>
-        <li>Prismic</li>
+        <li>Ruby</li>
         <li>Next.js</li>
       </ul>
     </section>
   );
-}
+};
 
 export default About;

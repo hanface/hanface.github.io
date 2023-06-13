@@ -5,7 +5,9 @@ const Colossal = () => {
       <ul>
         <li>Developed new user-facing features using React.</li>
         <li>
-          Built reusable components and front-end libraries for future use.
+          Developed and maintained a library of reusable front-end components,
+          improving development efficiency and consistency across multiple
+          projects.
         </li>
         <li>
           Optimized components for maximum performance across a vast array of
