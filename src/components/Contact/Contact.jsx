@@ -1,3 +1,5 @@
+import { LINKEDIN_PROFILE_URL } from "../../enum"
+
 import "./contact.css";
 
 const Contact = () => {
@@ -16,7 +18,11 @@ const Contact = () => {
        or if you simply wish to connect and discuss potential opportunities, please feel free to reach out. 
        I'm eager to explore how I can contribute to your team and its mission.
       </p>
-      <a className="button" href="https://www.linkedin.com/in/hannahthompsonnz/" target="_blank">
+      <a 
+        className="button" 
+        href={LINKEDIN_PROFILE_URL} 
+        target="_blank"
+      >
         Get In Touch
       </a>
     </section>
