@@ -1,3 +1,5 @@
+import { LINKEDIN_PROFILE_URL } from "../../enum"
+
 import "./intro.css";
 
 const Intro = () => {
@@ -10,11 +12,12 @@ const Intro = () => {
       </h1>
 
       <p className="intro-about animate__animated animate__fadeInUp animate__delay-0.2s">
-        I'm a software developer based in Auckland, NZ, passionate about building exceptional digital experiences.
+        I'm a software engineer based in New Zealand, passionate about building exceptional digital experiences.
       </p>
       <a
         className="button intro-about animate__animated animate__fadeInUp animate__delay-0.3s"
-        href="mailto:contacthanahmae@gmail.com"
+        href={LINKEDIN_PROFILE_URL}
+        target="_blank"
       >
         Get In Touch
       </a>

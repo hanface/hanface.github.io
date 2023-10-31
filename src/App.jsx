@@ -1,4 +1,4 @@
-import ScrollAnimation from "react-animate-on-scroll";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
 
 import Nav from "./components/Header/Header";
@@ -12,23 +12,23 @@ const App = () => {
     <main>
       <Nav />
       <Intro />
-      <ScrollAnimation
+      <AnimationOnScroll
         className="dark-bg"
         animateIn="animate__fadeInUp"
         animateOnce={true}
       >
         <About />
-      </ScrollAnimation>
-      <ScrollAnimation animateIn="animate__fadeInUp" animateOnce={true}>
+      </AnimationOnScroll>
+      <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
         <Experience />
-      </ScrollAnimation>
-      <ScrollAnimation
+      </AnimationOnScroll>
+      <AnimationOnScroll
         className="dark-bg"
         animateIn="animate__fadeInUp"
         animateOnce={true}
       >
         <Contact />
-      </ScrollAnimation>
+      </AnimationOnScroll>
     </main>
   );
 }
