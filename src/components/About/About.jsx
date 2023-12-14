@@ -5,11 +5,8 @@ const About = () => {
     <section className="about-section" id="about">
       <h2>About me</h2>
       <p>
-        I bring more than nine years of expertise to the table, with a strong focus on detail, design, and functionality. 
-        I thrive in collaborative environments, breaking down tasks and fostering effective communication with stakeholders, 
-        ensuring timely, high-quality project delivery. 
-        My passion for creating user-friendly digital solutions motivates me to continue growing and learning, 
-        both independently and as part of a team.
+        I find joy in simplifying and enhancing digital experiences. 
+        I am always enthusiastic about exploring new ideas and staying current with developments in the digital world.
       </p>
 
       <p>Here are a few technologies I've been working with recently:</p>
