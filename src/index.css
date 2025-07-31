@@ -57,6 +57,7 @@ li {
 }
 
 @media (min-width: 768px) {
+
   p,
   li {
     font-size: 1.25rem;

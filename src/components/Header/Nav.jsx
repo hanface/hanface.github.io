@@ -8,8 +8,7 @@ const Nav = () => (
     <AnchorLink href="#work">Work</AnchorLink>
     <AnchorLink href="#contact">Contact</AnchorLink>
     <a
-      className="button resume-button"
-      href="/han-thompson-resume-2023.pdf"
+      href="/Hannah-Thompson-resume-2025.pdf"
       target="_blank"
     >
       Resume
